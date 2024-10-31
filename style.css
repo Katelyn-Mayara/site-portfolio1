@@ -281,3 +281,94 @@ footer {
     padding: 20px;
     font-size: 0.9rem;
 }
+
+/* Ícone Flutuante do WhatsApp */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+}
+
+.whatsapp-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Outros estilos permanecem os mesmos */
+
+/* Estilos responsivos para telas pequenas */
+@media (max-width: 768px) {
+    /* Cabeçalho */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+        font-size: 1rem;
+    }
+
+    /* Hero section */
+    #hero {
+        height: auto;
+        padding: 20px;
+    }
+
+    .hero-content {
+        padding: 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    /* Serviços */
+    .services-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Galeria */
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Testemunhos */
+    .testimonial-carousel {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .testimonial-carousel img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Formulário de Contato */
+    #contato form {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
