@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conception Ambientes Planejados</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/cpalogo.jpg" alt="Conception Logo">
+        </div>
+        <nav>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="hero" style="background-image: url('images/hero-image.jpeg');">
+        <div class="hero-content">
+            <h1>Transformando Espaços em Ambientes Sofisticados</h1>
+            <p>Design de interiores e ambientes planejados que refletem o seu estilo de vida.</p>
+            <a href="#contato" class="btn">Fale Conosco</a>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Com expertise em ambientes planejados, criamos espaços sofisticados e funcionais, feitos sob medida para nossos clientes exigentes.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <div class="services-list">
+            <div class="service">
+                <h3>Design de Interiores</h3>
+                <p>Transforme o ambiente dos seus sonhos em realidade com nossa equipe especializada.</p>
+            </div>
+            <div class="service">
+                <h3>Ambientes Planejados</h3>
+                <p>Soluções sob medida para espaços sofisticados e modernos.</p>
+            </div>
+            <div class="service">
+                <h3>Consultoria Exclusiva</h3>
+                <p>Nosso atendimento exclusivo ajuda você a cada etapa do projeto.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h2>Nossos Projetos</h2>
+        <div class="gallery">
+            <img src="images/projeto1.jpg" alt="Projeto 1">
+            <img src="images/projeto2.jpg" alt="Projeto 2">
+            <img src="images/projeto3.jpg" alt="Projeto 3">
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <h2>Depoimentos de Clientes</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial">
+                <img src="images/cliente1.jpg" alt="Cliente A" class="client-photo">
+                <p>"O trabalho da Conception é impecável. Transformaram meu espaço em um ambiente dos sonhos!" – Bruna Faria</p>
+            </div>
+            <div class="testimonial">
+                <img src="images/cliente2.jpg" alt="Cliente B" class="client-photo">
+                <p>"Excelente atendimento e profissionalismo. Recomendo para todos que buscam qualidade." – Katelyn Mayara</p>
+            </div>
+            <div class="testimonial">
+                <img src="images/cliente3.jpg" alt="Cliente C" class="client-photo">
+                <p>"Experiência incrível! A Conception realmente entende o que seus clientes desejam." – Vinicius Santos</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-list">
+            <article>
+                <h3><a href="dicas.html">5 Dicas para Transformar seu Ambiente</a></h3>
+                <p>Descubra como pequenas mudanças podem fazer uma grande diferença no seu espaço.</p>
+            </article>
+            <article>
+                <h3><a href="tendencias.html">Tendências em Design de Interiores 2024</a></h3>
+                <p>Conheça as tendências que vão dominar o mundo do design de interiores neste ano.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contactForm" onsubmit="sendWhatsAppMessage(event)">
+            <input type="text" id="name" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu Email" required>
+            <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Conception Ambientes Planejados. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
